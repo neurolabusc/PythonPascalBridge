@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="gui.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="39"/>
+      </Unit>
+      <Unit>
+        <Filename Value="gui_main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="GLForm1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="145"/>
+        <CursorPos Y="176"/>
+        <UsageCount Value="39"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="PythonBridge/PythonBridge.pas"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="89"/>
+        <CursorPos X="5" Y="109"/>
+        <UsageCount Value="19"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="PythonBridge/StaticTypes.inc"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="108"/>
+        <CursorPos X="27" Y="127"/>
+        <UsageCount Value="19"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="27">
+      <Position>
+        <Filename Value="gui_main.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="gui_main.pas"/>
+        <Caret Line="82" Column="12" TopLine="72"/>
+      </Position>
+      <Position>
+        <Filename Value="gui_main.pas"/>
+        <Caret Line="18" Column="10" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="gui_main.pas"/>
+        <Caret Line="9" Column="28"/>
+      </Position>
+      <Position>
+        <Filename Value="gui_main.pas"/>
+        <Caret Line="113" Column="44" TopLine="86"/>
+      </Position>
+      <Position>
+        <Filename Value="gui_main.pas"/>
+        <Caret Line="7"/>
+      </Position>
+      <Position>
+        <Filename Value="gui_main.pas"/>
+        <Caret Line="22" Column="19" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="gui_main.pas"/>
+        <Caret Line="59" Column="29" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="gui_main.pas"/>
+        <Caret Line="56" Column="32" TopLine="32"/>
+      </Position>
+      <Position>
+        <Filename Value="gui_main.pas"/>
+        <Caret Line="44" Column="21" TopLine="36"/>
+      </Position>
+      <Position>
+        <Filename Value="PythonBridge/PythonBridge.pas"/>
+        <Caret Line="74" Column="17" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="gui_main.pas"/>
+        <Caret Line="55" Column="11" TopLine="36"/>
+      </Position>
+      <Position>
+        <Filename Value="gui_main.pas"/>
+        <Caret Line="50" Column="22" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="gui_main.pas"/>
+        <Caret Line="105" Column="87" TopLine="87"/>
+      </Position>
+      <Position>
+        <Filename Value="gui_main.pas"/>
+        <Caret Line="51" Column="7" TopLine="32"/>
+      </Position>
+      <Position>
+        <Filename Value="PythonBridge/StaticTypes.inc"/>
+        <Caret Line="120" Column="79" TopLine="107"/>
+      </Position>
+      <Position>
+        <Filename Value="PythonBridge/StaticTypes.inc"/>
+        <Caret Line="125" Column="21" TopLine="107"/>
+      </Position>
+      <Position>
+        <Filename Value="PythonBridge/StaticTypes.inc"/>
+        <Caret Line="127" Column="25" TopLine="107"/>
+      </Position>
+      <Position>
+        <Filename Value="PythonBridge/StaticTypes.inc"/>
+        <Caret Line="124" Column="55" TopLine="107"/>
+      </Position>
+      <Position>
+        <Filename Value="PythonBridge/PythonBridge.pas"/>
+        <Caret Line="232" Column="13" TopLine="219"/>
+      </Position>
+      <Position>
+        <Filename Value="gui_main.pas"/>
+        <Caret Line="67" Column="11" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="gui_main.pas"/>
+        <Caret Line="94" TopLine="77"/>
+      </Position>
+      <Position>
+        <Filename Value="gui_main.pas"/>
+        <Caret Line="10" Column="18"/>
+      </Position>
+      <Position>
+        <Filename Value="gui_main.pas"/>
+        <Caret Line="26" Column="28" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="gui_main.pas"/>
+        <Caret Line="105" Column="42" TopLine="80"/>
+      </Position>
+      <Position>
+        <Filename Value="gui_main.pas"/>
+        <Caret Line="122" Column="51" TopLine="106"/>
+      </Position>
+      <Position>
+        <Filename Value="gui_main.pas"/>
+        <Caret Line="124" Column="21" TopLine="106"/>
+      </Position>
+      <Position>
+        <Filename Value="gui_main.pas"/>
+        <Caret Line="125" Column="32" TopLine="109"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,63 @@
+object GLForm1: TGLForm1
+  Left = 372
+  Height = 281
+  Top = 25
+  Width = 514
+  Caption = 'PythonPascalBridge'
+  ClientHeight = 281
+  ClientWidth = 514
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '2.3.0.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 24
+    Top = 0
+    Width = 514
+    Align = alTop
+    AutoSize = True
+    ClientHeight = 24
+    ClientWidth = 514
+    TabOrder = 0
+    object Label1: TLabel
+      AnchorSideLeft.Control = Panel1
+      AnchorSideTop.Control = Panel1
+      AnchorSideTop.Side = asrCenter
+      Left = 5
+      Height = 16
+      Top = 4
+      Width = 112
+      BorderSpacing.Left = 4
+      Caption = 'Python Command:'
+    end
+    object Edit1: TEdit
+      AnchorSideLeft.Control = Label1
+      AnchorSideLeft.Side = asrBottom
+      AnchorSideTop.Control = Panel1
+      AnchorSideTop.Side = asrCenter
+      AnchorSideRight.Control = Panel1
+      AnchorSideRight.Side = asrBottom
+      Left = 121
+      Height = 21
+      Top = 2
+      Width = 388
+      Anchors = [akTop, akLeft, akRight]
+      BorderSpacing.Left = 4
+      BorderSpacing.Right = 4
+      OnKeyPress = Edit1KeyPress
+      TabOrder = 0
+      Text = 'print(''Hello world!'')'
+    end
+  end
+  object ScriptMemo: TMemo
+    Left = 0
+    Height = 257
+    Top = 24
+    Width = 514
+    Align = alClient
+    Lines.Strings = (
+      ''
+    )
+    TabOrder = 1
+  end
+end
