@@ -80,6 +80,10 @@ This repository includes pre-compiled versions of Python for Linux, Windows and 
  - Compile with `./configure --disable-shared; make`
 ```
 
+## Deployment
+
+You can easily distribute these projects for Linux: just make sure that the folder `UnixResources` is in the same folder as the executable. Likewise, Windows distribution must include the `WindowsResources`. For macOS, the resource folder is hidden inside that application package (e.g. `gui.app` is a folder that includes both the executable and the associated resource files). However, you must notarize macOS programs to share them with others. The included script `_macos_gui_notarize.command` can automate this process, creating a universal application that will work with both Intel and ARM based macOS computers. You will need to edit the `_macos_gui_notarize.command` script with your personal Apple Developer ID, email and [App Specific Password](https://support.apple.com/en-us/HT204397). For more details see [here](https://wiki.lazarus.freepascal.org/Code_Signing_for_macOS) and [here](https://github.com/neurolabusc/NotarizeFPC).
+
 ## Links and Alternatives
 
  - [Python-for-Lazarus](https://github.com/Alexey-T/Python-for-Lazarus) uses an existing Python installation, rather than linking static code. This only supports Python 3.* versions.
